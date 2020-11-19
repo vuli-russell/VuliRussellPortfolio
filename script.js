@@ -19,12 +19,24 @@ const projects = [
     },
 
     {
+        id: 'bookFinder',
+        title : 'Book Finder',
+        overlayImageSrc : './img/project-images/book-finder/overlay.png',
+        cardImageSrc: './img/project-images/book-finder/card.png',
+        description: 'Angular App to search for books using the Google Books API. Allows login through Google to create a collection of favorites',
+        techUsed: ['angular','typescript','sass','firebase'],
+        siteLink : 'https://book-finder.vulirussell.io/',
+        githubLink: 'https://github.com/vuli-russell/book-finder',
+        gridArea: 'g',
+    },
+
+    {
         id: 'toDoList',
         title : 'To Do List',
         overlayImageSrc : './img/project-images/toDoList/overlay.png',
         cardImageSrc: './img/project-images/toDoList/card.png',
         description: 'A To Do List, built with React. To do Items stored on mongoDB and accessed via a nodeJS api. Login handled by Firebase Authentication',
-        techUsed: ['react','sass','javascript',"firebase","nodejs","mongodb","express"],
+        techUsed: ['react','sass','javascript',"redux","firebase","nodejs","mongodb","express"],
         siteLink : 'https://todolist.vulirussell.io/',
         githubLink: 'https://github.com/vuli-russell/toDoSite',
         gridArea: 'c',
@@ -66,20 +78,17 @@ const projects = [
         gridArea: 'b',
     },
 
-
-
-
-    // {
-    //     id: 'morseCodeTranslator',
-    //     title : 'Morse Code Translator',
-    //     overlayImageSrc : './img/project-images/morseCode/overlay.png',
-    //     cardImageSrc: './img/project-images/morseCode/card.png',
-    //     description: 'Morse Code Translator build in HTML, SCSS and JS',
-    //     techUsed: ['html','sass','javascript'],
-    //     siteLink : 'https://morse-code.vulirussell.io/',
-    //     githubLink: 'https://github.com/vuli-russell/morse-code-translator',
-    //     gridArea: 'e',
-    // },
+    {
+        id: 'morseCodeTranslator',
+        title : 'Morse Code Translator',
+        overlayImageSrc : './img/project-images/morseCode/overlay.png',
+        cardImageSrc: './img/project-images/morseCode/card.png',
+        description: 'Morse Code Translator build in HTML, SCSS and JS',
+        techUsed: ['html','sass','javascript'],
+        siteLink : 'https://morse-code.vulirussell.io/',
+        githubLink: 'https://github.com/vuli-russell/morse-code-translator',
+        gridArea: 'e',
+    },
 
 
 ];

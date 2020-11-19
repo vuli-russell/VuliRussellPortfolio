@@ -395,7 +395,7 @@ nav .nav-menu.nav-shown {
   main > section > .project-cards-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: "f f f f f f" "d d d a a a" "c c c b b b";
+    grid-template-areas: "f f f f f f" "g g g a a a" "c c c b b b" "e e e d d d";
     gap: 40px;
     margin: 40px 0;
   }
@@ -403,6 +403,13 @@ nav .nav-menu.nav-shown {
     width: auto;
     max-width: none;
     margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 950px) {
+  main > section > .project-cards-container {
+    grid-template-areas: "f f f f g g" "a a c c c c  " "e e b b d d";
   }
 }
 .project-details-overlay {
